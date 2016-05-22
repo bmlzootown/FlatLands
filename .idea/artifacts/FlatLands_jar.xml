@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FlatLands:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FlatLands_jar</output-path>
+    <root id="archive" name="FlatLands.jar">
+      <element id="module-output" name="FlatLands" />
+    </root>
+  </artifact>
+</component>
