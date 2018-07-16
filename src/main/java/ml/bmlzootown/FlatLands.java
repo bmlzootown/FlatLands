@@ -1,11 +1,6 @@
-package mx.x10.bmlzootown;
+package ml.bmlzootown;
 
-import mx.x10.bmlzootown.listeners.BlazePowderSmeltEvent;
-import mx.x10.bmlzootown.listeners.BlazeRodCraftingEvent;
-import mx.x10.bmlzootown.recipes.BlazePowderRecipe;
-import mx.x10.bmlzootown.generator.FlatLandsGenerator;
-import mx.x10.bmlzootown.recipes.BlazeRodRecipe;
-import org.bukkit.Bukkit;
+import ml.bmlzootown.generator.FlatLandsGenerator;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -20,10 +15,7 @@ public class FlatLands extends JavaPlugin {
     private Logger log = Logger.getLogger("minecraft");
 
     public void onEnable() {
-        Bukkit.addRecipe(BlazePowderRecipe.blazePowderRecipe());
-        Bukkit.addRecipe(BlazeRodRecipe.blazeRodRecipe());
-        Bukkit.getPluginManager().registerEvents(new BlazePowderSmeltEvent(), this);
-        Bukkit.getPluginManager().registerEvents(new BlazeRodCraftingEvent(), this);
+
     }
 
     public void onDisable() {

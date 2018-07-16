@@ -1,4 +1,4 @@
-package mx.x10.bmlzootown.populators;
+package ml.bmlzootown.populators;
 
 import java.util.Random;
 import org.bukkit.Chunk;

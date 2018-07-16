@@ -1,7 +1,7 @@
-package mx.x10.bmlzootown.generator;
+package ml.bmlzootown.generator;
 
-import mx.x10.bmlzootown.FlatLands;
-import mx.x10.bmlzootown.populators.*;
+import ml.bmlzootown.populators.*;
+import ml.bmlzootown.FlatLands;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
